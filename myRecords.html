@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--=====================css======================= -->
+    <link rel="stylesheet" href="dashboardstyle.css" />
+    <link rel="stylesheet" href="myRecords.css" />
+    <!----===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo-name" id="main-brand">
+        <div class="logo-image">
+          <img src="Vi Mark Tech Logo (1).png" alt="" />
+        </div>
+        <span class="logo_name"><span id="Vi">Vi</span> Mark Tech</span>
+      </div>
+
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li>
+            <a href="dashboard.html">
+              <i class="uil uil-estate"></i>
+              <span class="link-name">Dahsboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="addnew.html">
+              <i class="uil uil-files-landscapes"></i>
+              <span class="link-name">Add New</span>
+            </a>
+          </li>
+          <li>
+            <a href="myRecords.html">
+              <i class="uil uil-chart"></i>
+              <span class="link-name">My Records</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-thumbs-up"></i>
+              <span class="link-name">Confirmed</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="logout-mode">
+          <li>
+            <a href="index.html">
+              <i class="uil uil-signout"></i>
+              <span class="link-name">Logout</span>
+            </a>
+          </li>
+          <div class="mode-toggle" style="display: none">
+            <span class="switch"></span>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <section class="dashboard">
+      <div class="top">
+        <i class="uil uil-bars sidebar-toggle"></i>
+
+        <div class="logo-name" id="middle-brand">
+          <div class="logo-image">
+            <img src="Vi Mark Tech Logo (1).png" alt="" />
+          </div>
+          <span class="logo_name"><span id="Vi">Vi</span> Mark Tech</span>
+        </div>
+
+        <i
+          class="fa-solid fa-circle-user"
+          style="font-size: 40px; color: #004aad !important; cursor: pointer"
+        ></i>
+      </div>
+
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <i class="uil uil-tachometer-fast-alt"></i>
+            <span class="text">Records</span>
+          </div>
+
+          <div class="boxes">
+            <div class="box box1">
+              <div>
+                <span>Confirmed</span>
+              </div>
+              <div>
+                <span class="text"> Tausif Khan</span>
+              </div>
+              <div>
+                <span>Deadline - </span>
+                <span>12/5/23 </span>
+              </div>
+              <div>
+                <button class="btn">Edit</button>
+                <button class="btn">Cancel</button>
+              </div>
+            </div>
+
+            <div class="box box2">
+                <div>
+                    <span>follow up</span>
+                  </div>
+                  <div>
+                    <span class="text">	Ajay chaudhari</span>
+                  </div>
+                  <div>
+                    <span>Deadline - </span>
+                    <span>12/5/2023 </span>
+                  </div>
+                  <div>
+                    <button class="btn">Edit</button>
+                    <button class="btn">Cancel</button>
+                  </div>
+            </div>
+
+            <div class="box box3">
+                <div>
+                    <span>Completed</span>
+                  </div>
+                  <div>
+                    <span class="text"> Tausif Khan</span>
+                  </div>
+                  <div>
+                    <span>Deadline - </span>
+                    <span>12/5/23 </span>
+                  </div>
+                  <div>
+                    <button class="btn">Edit</button>
+                    <button class="btn">Cancel</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
