@@ -60,7 +60,7 @@ header h2 span {
   margin-inline: auto;
   font-weight: 600;
 }
-.img-section{
+.img-section {
   display: none;
 }
 .Username-box {
@@ -94,9 +94,9 @@ header h2 span {
   width: 100%;
 }
 /* .box input:active{
-  all: unset;
-  
-} */
+    all: unset;
+    
+  } */
 .box input:focus {
   /* all: unset; */
   outline: none;
@@ -126,26 +126,33 @@ header h2 span {
   max-width: 20rem;
   align-self: center;
 }
-.LogIn-btn:hover{
+.LogIn-btn:hover {
   background-color: #004badcb;
-
 }
 .reg {
   align-self: center;
   margin-top: 3rem;
 }
-
+a:active {
+  background-color: rgba(240, 248, 255, 0) !important;
+}
 
 /* 'sm': '640px', */
 @media (min-width: 640px) {
   .login-Section {
     padding: 25px 6rem;
   }
+  a:active {
+    background-color: rgba(240, 248, 255, 0) !important;
+  }
 }
 
 @media (min-width: 812px) {
   .login-Section {
     padding: 25px 12rem;
+  }
+  a:active {
+    background-color: rgba(240, 248, 255, 0) !important;
   }
 }
 
@@ -196,8 +203,10 @@ header h2 span {
     justify-content: stretch;
     max-width: 50%;
   }
+  a:active {
+    background-color: rgba(240, 248, 255, 0) !important;
+  }
 }
-
 
 /* 'xl': '1280px', */
 @media (min-width: 1280px) {
@@ -211,9 +220,10 @@ header h2 span {
   header {
     padding-left: 5rem;
   }
+  a:active {
+    background-color: rgba(240, 248, 255, 0) !important;
+  }
 }
-
-
 
 /* '2xl': '1536px', */
 @media (min-width: 1536px) {
@@ -223,4 +233,9 @@ header h2 span {
   header {
     padding-left: 7rem;
   }
+  a:active {
+    background-color: rgba(240, 248, 255, 0) !important;
+  }
 }
+
+

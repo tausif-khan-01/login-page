@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="addnewstyle.css" />
+    <title>Add New Customer</title>
+    <link
+      rel="shortcut icon"
+      href="../Vi Mark Tech Logo (1).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/addnew.css" />
+
     <!----===== Iconscout CSS ===== -->
     <link
       rel="stylesheet"
@@ -15,13 +22,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    
   </head>
 
   <body>
     <nav>
       <div class="logo-name" id="main-brand">
         <div class="logo-image">
-          <img src="Vi Mark Tech Logo (1).png" alt="" />
+          <img src="../Vi Mark Tech Logo (1).png" alt="" />
         </div>
         <span class="logo_name"><span id="Vi">Vi</span> Mark Tech</span>
       </div>
@@ -29,34 +37,46 @@
       <div class="menu-items">
         <ul class="nav-links">
           <li>
-            <a href="dashboard.html">
+            <a href="../html/dashboard.html">
               <i class="uil uil-estate"></i>
               <span class="link-name">Dahsboard</span>
             </a>
           </li>
           <li>
-            <a href="addnew.html">
-              <i class="uil uil-files-landscapes"></i>
+            <a href="#" class="activeTab">
+              <i class="fa-regular fa-square-plus"></i>
               <span class="link-name">Add New</span>
             </a>
           </li>
           <li>
-            <a href="myRecords.html">
+            <a href="../html/records.html">
               <i class="uil uil-chart"></i>
-              <span class="link-name">My Records</span>
+              <span class="link-name">Records</span>
             </a>
           </li>
           <li>
-            <a href="confirmed.html">
+            <a href="../html/confirmed.html">
               <i class="uil uil-thumbs-up"></i>
               <span class="link-name">Confirmed</span>
+            </a>
+          </li>
+          <li>
+            <a href="../html/followup.html">
+              <i class="fa-regular fa-pen-to-square"></i>
+              <span class="link-name">Follow Up</span>
+            </a>
+          </li>
+          <li>
+            <a href="../html/request.html">
+              <i class="fa-regular fa-eye"></i>
+              <span class="link-name">Requests</span>
             </a>
           </li>
         </ul>
 
         <ul class="logout-mode">
           <li>
-            <a href="index.html">
+            <a href="../index.html">
               <i class="uil uil-signout"></i>
               <span class="link-name">Logout</span>
             </a>
@@ -74,14 +94,10 @@
 
         <div class="logo-name" id="middle-brand">
           <div class="logo-image">
-            <img src="Vi Mark Tech Logo (1).png" alt="" />
+            <img src="../Vi Mark Tech Logo (1).png" alt="" />
           </div>
           <span class="logo_name"><span id="Vi">Vi</span> Mark Tech</span>
         </div>
-        <!-- <div class="search-box">
-                <i class="uil uil-search"></i>
-                <input type="text" placeholder="Search here...">
-            </div> -->
 
         <i
           class="fa-solid fa-circle-user"
@@ -91,7 +107,7 @@
 
       <div class="dash-content">
         <div class="title">
-          <i class="uil uil-files-landscapes"></i>
+          <i class="fa-solid fa-square-plus"></i>
           <span class="text">Add Customer</span>
         </div>
         <form class="form">
@@ -196,6 +212,6 @@
         </form>
       </div>
     </section>
-    <script src="index.js"></script>
+    <script src="../javascript/index.js"></script>
   </body>
 </html>
